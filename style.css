@@ -1,0 +1,69 @@
+h1{
+    color:whitesmoke;
+   text-align: center; 
+}
+/*{
+    border:solid;
+}*/
+.header{
+   
+    background-image: url("V3YW.gif");
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  background-image: url("1j64.gif");
+}
+ 
+p,h2{
+    text-align: center;
+
+}
+.item{
+ /* background-image: url("ori\ bg.jpg");*/
+background-color: #ec3939;
+}
+.menu{
+  background-color:rgba(89, 23, 100, 0.212);
+    text-align:end;
+ /*   margin-right:30px ;
+    padding-top: 20px;   */ 
+}
+.menu a{
+    border:solid;
+    border-color:black;
+    padding-left: 10px;
+    padding-top:10px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+a:link{
+    color:red;
+
+}
+a:visited{
+    color:white;
+}
+.item{
+    position: relative;
+}
+.item h2{
+    position: absolute;
+    top:10%;
+    left:70%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover h2{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.5;
+}
+.anna{
+    background-color:rgba(230, 9, 201, 0.226);
+}
